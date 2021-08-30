@@ -1,0 +1,20 @@
+2. Lakukan pengujian terhadap app anda dengan skenario di bawah ini:
+a. Kosongkan Angka 1 dan Angka 2, lalu klik salah satu button
+yang terjadi 			-> aplikasi dinyatakan has stopped atau dipaksa tutup / keluar
+error dan kemungkinan penyebab 	-> karena NumberFormatException : empty string atau tidak ada input yang diminta untuk dioperasikan (numberDecimal)
+solusi 				-> menggunakan Exception Handling yang akan memberitahu pengguna melakukan kesalahan, dengan kata seperti 'Invalid Input' kemudian di return ke Main Activity
+
+b. Kosongkan Angka 2, lalu klik button Bagi.
+yang terjadi			-> aplikasi dinyatakan has stopped juga atau dipaksa tutup / keluar 
+error dan kemungkinan penyebab 	-> input yang diminta adalah angka1 dan angka2, tidak bisa hanya menerima 1 input saja
+solusi 				-> menggunakan Exception Handling yang akan memberitahu pengguna melakukan kesalahan, dengan kata seperti 'Invalid Input' kemudian di return ke Main Activity
+
+c. Isi 0 (nol) pada Angka 2, lalu klik button Bagi.
+yang terjadi 			-> Hasil nya berupa 'Infinity'
+
+
+3. Lakukan debugging pada program anda dengan meletakkan dua breakpoint bebas letaknya. Gunakan langkah-langkah step-over, step-into, step-out, dan resume. Tuliskan kesimpulan hasil debugging anda dan submit ke isian assignment di eLearning.
+Step over -> debugging dilakukan per line. Misalkan menempatkan breakpoint pada line 17, maka ketika di klik step over akan berlanjut ke line 18
+Step into  -> ketika dilakukan debugging pada line 20 dan di klik step into, debugging akan dilakukan pada method yang tertera yaitu 'findViewById'
+Step-out -> menyelesaikan debugging pada method saat step into dan mengembalikannya ke line yg terakhir dilakukan debugging
+Resume -> menjalankan aplikasi lagi secara normal
