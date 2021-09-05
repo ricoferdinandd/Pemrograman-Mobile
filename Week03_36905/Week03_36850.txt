@@ -1,0 +1,7 @@
+Kesimpulan week 03 :
+Menampilkan app yang berisikan list kata 1 sampai kata 20. Jika kita meng klik salah satu kata 1 sampai kata 20, 
+maka akan muncul tulisan 'pernah diklik' di samping kata tersebut, dan akan bertambah tulisan 'pernah diklik'nya jika kita mengklik 
+list kata yg sama. Terdapat jg floating button 'add' yg jika di klik akan menambah list kata dengan melanjutkan urutan terakhir.
+Misalkan yang terakhir adalah 'kata 20', maka akan dilanjutkan dengan 'kata 21' dan diikutin tulisan 'telah ditambahkan'.
+Setiap 'kata' yang sudah ada dan di klik akan menambah tulisan 'pernah diklik', 
+dan setiap mengklik button add akan menambah list 'kata *angka lanjutan* telah ditambahkan'.
