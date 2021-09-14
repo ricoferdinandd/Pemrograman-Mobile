@@ -1,0 +1,16 @@
+Intent:
+1. Mengirimkan text yang kosong dari MainActivity ke ActivityDua dan sebaliknya.
+--> Berhasil pindah ke ActivityDua dan tidak menampilkan text apapun, begitu juga ketika button balas diklik tanpa memiliki text pada Jawaban.
+2. Mengirimkan text yang berisi karakter, integer dan karakter spesial dari MainActivity ke ActivityDua dan sebaliknya.
+--> Berhasil dilakukan secara dua arah.
+3. Mengirimkan text yang mengandung next line dan sebaliknya.
+--> Berhasil dilakukan namun text terpotong dan hanya menampilkan 3 line begitu juga dengan balasan.
+4. Klik browse tanpa input
+--> Aplikasi akan membuka browser dan mengarahkan ke web https://www.umn.ac.id/
+5. Klik browse dengan input www.google.com
+--> tidak terjadi apa-apa karena Uri.parse tidak membaca www.google.com sebagai website
+6. Klik browse dengan input https://www.google.com
+--> Aplikasi akan membuka browser dan mengarahkan ke web https://www.google.com
+
+Fragment:
+Tidak ada pengujian karena hanya melakukan perpindahan Activity menggunakan intent.
