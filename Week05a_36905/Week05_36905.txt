@@ -1,0 +1,10 @@
+project kali ini membuat aplikasi mirip paint, yaitu terdapat sebuah area seperti kanvas yang bisa kita gunakan untuk digambar2. 
+Terdapat pilihan untuk membuat suatu bentuk, dengan input mouse klik kanan.
+Rect untuk membuat pola persegi
+Oval untuk membuat pola lingkaran
+Line untuk membuat pola garis lurus
+Path untuk membuat pola sesuai yang kita mau
+Terdapat juga pilihan warna yang bisa kita adjust, terdapat warna merah, hijau, dan biru. 
+Warnanya pun bisa dicampur dengan warna yang lainnya. 
+Di kanan bawah pun terdapat seperti blok yang menginformasikan kita warna apa yang sedang kita gunakan. 
+Untuk menghapus keseluruh pola di area kanvas bisa kita klik button 'X' berwarna merah berbentuk bulat di sebelah kiri atas. 
