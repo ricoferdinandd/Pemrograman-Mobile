@@ -1,0 +1,12 @@
+Week06A_36850
+menampilkan layar kosong namun ketika di touch atau di klik menggunakan mouse, 
+muncul lingkaran hijau yang makin lama makin membesar dan ketika sudah ukuran max maka akan mengecil kembali, 
+dan akan terus berulang selama 2x apabila kita tidak menyentuh / mengklik kembali layarnya.
+
+Week06B_36850
+menampilkan gambar orang serta berkuda yang diam, namun ketika kita klik, 
+gambar orang berkuda tersebut seakan2 bergerak karena menggunakan beberapa / deretan foto yang di-play berurutan sehingga menampilkan animasi orang berkuda dan akan terus bergerak karena di looping
+
+Week06C_36850
+terdapat kotak dengan tulisan 'HALO SPRING' yang diam, namun ketika diklik kotak tulisan tersebut akan loncat / memantul seperti per yang ditarik ke bawah.
+sedangkan kotak dengan tulisan 'HALO FLING' yang diam, ketika diklik maka kotak tulisan tersebut akan berputar seperti spinning wheel namun seperti POV 3 dimensi
