@@ -1,0 +1,4 @@
+Pada bagian Week07A menampilkan bagaimana app android dapat mengambil foto dan video 
+dengan menggunakan sebuah button yang sebelumnya meminta izin akses kamera dari device, 
+dimana foto dan video yang telah diambil juga dapat di retake, di apply, atau di cancel. 
+Serta dapat menampilkan hasil foto dan video yang di apply.
