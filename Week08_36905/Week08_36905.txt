@@ -1,0 +1,32 @@
+Week08A_36905
+
+Pada tampilan terdapat 3 radio button bagaimana text yang kita ketik disave, ada temporary, internal, dan external. 
+Lalu dibawahnya terdapat EditText untuk mengetik text yang diinginkan. 
+Lalu dibawahnya ada button open, save, delete, clear, exit.
+Ketika kita menge-save text di salah satu radio button, misalkan di internal, 
+maka text akan di save di internal (muncul Toast 'Text sudah tersimpan') 
+dan akan muncul di pop up ketika kita memencet button Open dan Internal, 
+dan jika diklik maka akan secara otomatis text yg di save di internal 
+akan muncul pada EditText Nama File --> dengan menghapus etFileName.setText("");
+Namun jika kita mencari Text yang disimpan di Internal pada button External atau Temporary, 
+maka akan muncul toast 'File tidak Ditemukan'.
+Jika menyimpan file di Temporary dan aplikasi diclose dan dibuka kembali, maka file tsb akan hilang, 
+sedangkan file di Internal dan External akan tetap ada.
+
+Week08B_36905
+
+ketika mengikuti modul untuk tutorial kegiatan B dari nomor 1 sampai nomor 6, 
+aplikasi menampilkan angka 0 dan background yang berwarna abu-abu, 
+dimana di bawahnya terdapat button Hitam, Merah, Biru, Hijau, Tambah dan Reset.
+jika mengklik button hitam, maka background akan berubah menjadi warna hitam, 
+begitu juga dengan button merah, biru, dan hijau. Namun angka tidak akan bertambah / berubah. 
+Sedangkan jika button tambah diklik maka angka pada tampilan akan bertambah (+1) 
+namun warna background tidak akan ikut berubah. Jika diklik tombol reset, maka angka akan kembali menjadi 0 
+dan background menjadi warna abu-abu default kembali.
+Ketika device di rotate, angka dan background tidak akan kembali ke bentuk default (0 dan abu-abu), 
+tampilan akan tetap seperti perubahan terakhir. Namun jika di back dan dibuka kembali aplikasinya, 
+maka akan kembali ke bentuk default (angka 0 dan background abu-abu)
+sedangkan ketika mengikuti tutorial kegiatan B nomor 7 dan 8, dimana menambah implementasi onPause(), 
+menghapus onSaveInstanceState() dan mengubah setting nama file dan pembacaan data di dalam method onCreate(), 
+maka tampilan aplikasi ketika device di rotate dan ketika aplikasi di back dan dibuka kembali, 
+tampilan akan tetap sama dengan perubahan terakhir (tidak kembali ke tampilan default -> angka 0 dan background abu-abu)
