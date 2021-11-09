@@ -1,0 +1,5 @@
+Week10a --> Ketik click "Mulai Task" maka aplikasi akan berjalan dan menampilkan result berupa waktu yang telah berlanggsung
+
+Week10b --> Mirip seperti week10a perbedaannya hanya pada implementasinnya
+
+weeek10c --> Terdapat 2 button Mulai service dan juga Tampilkan Waktu, Mulai service berfungsi untuk menampilkan progress service di logcat dan dapat dispam dan tampilkan waktu berfungsi untuk menampilkan waktu di hp tersebut, seperti tanggal jam dan bulan serta tahun.
