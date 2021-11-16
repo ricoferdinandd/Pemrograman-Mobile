@@ -1,0 +1,5 @@
+
+Tampilan aplikasi menampilkan card dengan judul dan subtitle yang ditampilkan 
+dengan RecyclerView.
+Internet dapat diakses dengan menambahkan permission pada AndroidManifest. 
+Data yang ditampilkan dengan mengambil API dari internet.
