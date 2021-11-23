@@ -1,0 +1,12 @@
+week 12a
+
+menampilkan daftar sensor pada device. 
+karena device yang digunakan adalah emulator maka semua sensor yang tercantum "Goldfish" 
+merupakan sensor virtual dan menandakan nama emulator Linux.
+
+
+week 12b
+
+menampilkan angka Light Sensor dan Proximity Sensor. 
+yang jika dari settingan emulator angka Proximity dan Light nya diubah2, 
+maka tampilan pada device juga akan berubah sesuai dengan settingan di emulator.
