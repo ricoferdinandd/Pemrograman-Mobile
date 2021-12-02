@@ -1,0 +1,10 @@
+Week 13
+
+menampilkan aplikasi seperti google map, dimana terdapat peta yang titik awal / defaultnya berada di UMN. Map dapat di zoom in dan di zoom out serta dapat digeser. 
+Terdapat button tambah dimana kita dapat :
+- marker : menambah marker / pin dengan keterangan
+- cicrle : menambah seperti area yang dilingkarkan, sesuai dengan keterangan dan berapa besar radius yang dapat diinput
+- polyline : menambah beberapa titik yang dihubungkan dengan sebuah garis lurus
+- polygon : menambah beberapa titik yang dihubungkan dengan garis sehingga menghubungkan semua titik
+
+simp -> untuk menyimpan peta yang sudah di'edit' (diberi marker / circle / polyline / polygon)
